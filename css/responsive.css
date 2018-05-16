@@ -1,0 +1,17 @@
+@media all and (max-width: 768px) {
+    #left-contact {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    #contact-form input,
+    #contact-form button {
+        margin: 10px 0;
+    }
+
+    .social a {
+        margin: 5px 10px;
+    }

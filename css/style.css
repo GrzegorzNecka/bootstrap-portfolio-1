@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h3,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+/*helpers*/
+
+section {
+    padding: 35px 15px;
+
+}
+
+span.green {
+    color: limegreen;
+    font-weight: 400;
+}
+
+section:nth-of-type(odd) {
+    background-color: #eee;
+    box-shadow: 0px 10px 2px 0px rgba(224, 221, 224, 1);
+}
+
+section h3 {
+    line-height: 40px;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 0 35px 0;
+
+}
+
+.section-head p:first-of-type {
+    text-align: center;
+}
+
+/*navigacja*/
+
+nav#nav-top {
+    background-color: #fff;
+}
+
+nav#nav-top a {
+    color: limegreen;
+    line-height: 40px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 20px;
+}
+
+/*header*/
+
+#header-img {
+    height: 100vh;
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#header-txt h1,
+#header-txt h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    margin: 50px;
+
+}
+
+#header-txt h1 {
+    font-size: 3.5rem;
+}
+
+#header-txt h2 {
+    font-size: 2.5rem;
+}
+
+/*o mnie*/
+
+#omnie-img {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#omnie-txt {
+    display: flex;
+    align-items: center;
+}
+
+#omnie-img img {
+    box-sizing: content-box;
+    border: 10px solid #fff;
+    height: 340px;
+}
+
+/*umiejętności*/
+
+#skills-icons {
+    text-align: center;
+    width: 50%;
+}
+
+#skills-icons figure img {
+    margin-top: 35px;
+}
+
+/*portfolio*/
+
+#title-1,
+#title-2,
+#title-3 {
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+#title-1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+#title-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+#title-3 {
+    background-image: url(../img/portfolio4.jpg);
+}
+
+#title-1:hover .mask,
+#title-2:hover .mask,
+#title-3:hover .mask {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.mask {
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.0;
+    background-color: rgba(43, 74, 100, 0.8);
+    transition: all 0.4s;
+}
+
+.border {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*kontakt*/
+
+#contact {
+    color: #fff;
+    background-color: #213b50;
+}
+
+/*strona prawa*/
+
+#contact-form {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact-form input,
+#contact-form button {
+
+    border-radius: 0px;
+    border-width: 0;
+}
+
+#contact-form input {
+    background-color: #2b4a64;
+    color: #fff;
+}
+
+#contact-form input::placeholder {
+    color: #fff;
+}
+
+#contact-form button {
+    width: 100px;
+}
+
+/*strona lewa*/
+
+#left-contact {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+#left-contact h3,
+#left-contact p {
+    margin: 0 0 15px 0;
+}
+
+.social {
+    padding: 0;
+}
+
+.social a {
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.4s;
+    font-size: 20px;
+    margin: 0 15px 0 0;
+}
+
+.social a:hover {
+    color: #2b4a64;
+    background: white;
+}
+
+/*footer*/
+
+footer {
+    background-color: #142634;
+}
+
+#footer p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
